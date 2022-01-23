@@ -1,0 +1,61 @@
+.reviewCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showReviewCards {
+  border-radius: 8px;
+  margin: 30px 0;
+  width: 300px;
+  height: 210px;
+  background: #111229;
+  border: 1px solid #e5c558;
+  box-shadow: 5px -5px #276C73;
+  overflow: hidden;
+}
+
+.profile {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 30px 20px 10px 20px;
+}
+
+.proImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: url(../../Assets/card3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.proName h6 {
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.proName span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  color: #e5c558;
+}
+
+.showReviewCards p {
+  padding: 10px 20px 20px 20px;
+  color: #fff;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+}
