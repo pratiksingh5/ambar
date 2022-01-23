@@ -8,6 +8,7 @@ import forthCardImg from "../../Assets/card4.png";
 const Shows = () => {
   return (
     <>
+    <div className="cardContainer">
       <div className="cards">
         <div class="showsCard">
           <img src={firstCardImg} class="card-img-top" alt="" />
@@ -61,6 +62,7 @@ const Shows = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

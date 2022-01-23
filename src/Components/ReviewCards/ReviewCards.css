@@ -8,7 +8,7 @@
   border-radius: 8px;
   margin: 30px 0;
   width: 300px;
-  height: 210px;
+  min-height: 210px;
   background: #111229;
   border: 1px solid #e5c558;
   box-shadow: 5px -5px #276C73;
@@ -58,4 +58,36 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 22px;
+}
+@media screen and (max-width:480px) {
+  .reviewContainer{
+    /* background-color: red ; */
+    position: relative;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-x:scroll ;
+    overflow-y: hidden;
+    min-height: 420px;
+  }
+  .reviewContainer{
+    position: absolute;
+    /* background-color: yellow; */
+  }
+  .reviewCards {
+    /* background-color: tomato; */
+    position: absolute;
+    margin-right: 20px;
+
+  }
+  .showReviewCards{
+    margin-right: 20px;
+  }
+  /* .reviewContainer::-webkit-scrollbar{
+    height: 4px;              
+    width: 4px;      
+    background-color: #0259eb;         
+  }
+  .reviewContainer::-webkit-scrollbar-thumb{
+  background-color: red
+  } */
 }

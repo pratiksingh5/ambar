@@ -14,7 +14,7 @@ const Background = () => {
           <div className="text">
             <h1>Cari Cari</h1>
             <p>
-              Live from their sofa to yours. Get closer to your favorite <br />
+              Live from their sofa to yours. Get closer to your favorite 
               artists, and never miss out.
             </p>
           </div>

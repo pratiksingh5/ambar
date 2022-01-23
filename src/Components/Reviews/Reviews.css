@@ -1,5 +1,6 @@
 .reviewContainer {
     padding: 8% 10% 0 10%;
+    background-color: #0A0B1A;
   }
   
   .container-box-reviews {
@@ -28,3 +29,10 @@
     font-size: 16px;
   }
   
+  @media screen and (max-width:480px) {
+    .reviewContainer {
+      padding: 8% 3%;
+      background-color: #0A0B1A;
+    }
+    
+  }

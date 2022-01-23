@@ -4,6 +4,7 @@ import "./ReviewCards.css"
 const ReviewCards = () => {
   return (
     <>
+    <div className="reviewContainer">
       <div className="reviewCards">
         <div className="showReviewCards">
           <div className="profile">
@@ -47,6 +48,7 @@ const ReviewCards = () => {
             adipiscing.
           </p>
         </div>
+      </div>
       </div>
     </>
   );

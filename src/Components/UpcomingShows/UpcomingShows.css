@@ -27,3 +27,14 @@
   font-weight: 600;
   font-size: 16px;
 }
+
+@media screen and (max-width:480px) {
+  h2{
+    font-size: 18px;
+  }
+  .container-box  {
+    display: flex;
+    align-items:flex-start;
+    /* background-color: aqua; */
+  }
+}

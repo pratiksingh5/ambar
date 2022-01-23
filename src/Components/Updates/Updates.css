@@ -1,14 +1,9 @@
 .updates {
-  margin-top: 50px;
-  width: 100%;
+  min-width: 100%;
   height: 200px;
   background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 11%;
-  position: absolute;
-  z-index: 1;
+  /* position: absolute; */
+  /* z-index: 1; */
 }
 
 .circles {
@@ -45,4 +40,59 @@
   font-style: normal;
   font-weight: 200;
   font-size: 12px;
+}
+
+
+@media screen and (max-width:480px) {
+  .updates {
+    min-width: 100%;
+    display: flex;
+    /* background-color: rgba(196, 190, 191, 0.219); */
+    position: absolute;
+    padding: 0 10%;
+  }
+  .circles {
+    width: 130px;
+    height: 130px;
+    margin-right: 20px;
+  }
+.updateContainer{
+  /* background-color: yellow; */
+  position: relative;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x:scroll ;
+  height: 200px;
+  overflow-y: hidden;
+  
+
+margin-top: 40%;
+}
+
+/* .updateContainer::-webkit-scrollbar{
+  height: 4px;              
+  width: 4px;      
+  background-color: #0259eb;         
+}
+.updateContainer::-webkit-scrollbar-thumb{
+background-color: red
+} */
+  /* body::-webkit-scrollbar{
+    display: none;
+  } */
+}
+
+@media screen and (min-width:481px) {
+  .updates {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 11%;
+    position: absolute;
+    z-index: 1;
+  }
 }
